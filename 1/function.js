@@ -1,0 +1,18 @@
+var names=['HM Nayem','Shegufa Taranjum','Twinkle Cats','Abir Azim','Jubel Ahmed','Al Rafi'];
+var data=[1,2,3,4,5,6];
+console.log(names.length);
+console.log(names[3-2]);
+console.log(names[names.length-1]);
+console.log(names.indexOf('Al Rafi'));
+names[names.length]='Someone';
+console.log(names);
+console.log(names.length);
+names.push('Mohsin');
+console.log(names);
+console.log(names.length);
+var SArray=names.sort();
+console.log(SArray);
+names.splice(6,1);
+console.log(names);
+names.splice(6,1,'Anyone');
+console.log(names);

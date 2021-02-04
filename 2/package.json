@@ -1,0 +1,19 @@
+{
+  "name": "second",
+  "version": "1.0.0",
+  "description": "Second Tutorial",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "live-server"
+  },
+  "author": "MOHSIN",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "underscore": "^1.9.2"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
